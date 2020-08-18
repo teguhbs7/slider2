@@ -5,5 +5,7 @@
 
     for(let i=0; i<totalNavList; i++){
         const a=navList[i].querySelector("a");
-        console.log(a)
+        a.addEventListener("click", function(){
+        console.log(this);
+        })
     }
