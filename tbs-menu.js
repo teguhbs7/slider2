@@ -4,5 +4,6 @@
           totalNavList=navList.length;
 
     for(let i=0; i<totalNavList; i++){
-        console.log(navList[i])
+        const a=navList[i].querySelector("a");
+        console.log(a)
     }
