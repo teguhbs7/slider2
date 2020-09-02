@@ -40,3 +40,8 @@ function removeBackSectionClass(){
       allSection[i].classList.remove("back-section");
   }
 }
+
+// Loader
+$(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
