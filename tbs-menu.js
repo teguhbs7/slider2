@@ -40,12 +40,3 @@ function removeBackSectionClass(){
       allSection[i].classList.remove("back-section");
   }
 }
-
-// Loader
-window.addEventListener("load", function(){
-    document.querySelector(".loader-wrapper").classList.add("opacity-0");
-        
-    setTimeout(function(){
-        document.querySelector(".loader-wrapper").style.display="none";
-    },1000)
-})
