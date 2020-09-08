@@ -5,7 +5,7 @@ const navTogglerBtn=document.querySelector(".nav-toggler-stats"),
         // asideSectionTogglerBtn();
 
     function asideSectionTogglerBtn(){
-        aside-menu.classList.toggle("open");
+        aside.classList.toggle("open");
         navTogglerBtn.classList.toggle("open");
         for(let i=0; i<totalSection; i++){
             allSection[i].classList.toggle("open");
