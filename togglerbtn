@@ -1,5 +1,5 @@
-const navTogglerBtn=document.querySelector(".nav-toggler-stats"),
-          aside=document.querySelector(".aside-menu");
+const navTogglerBtn=document.querySelector(".nav-toggler"),
+          aside=document.querySelector(".aside");
 
     navTogglerBtn.addEventListener("click",asideSectionTogglerBtn)
         // asideSectionTogglerBtn();
