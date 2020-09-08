@@ -1,0 +1,13 @@
+const navTogglerBtn=document.querySelector(".nav-toggler-stats"),
+          aside=document.querySelector(".aside-menu");
+
+    navTogglerBtn.addEventListener("click",asideSectionTogglerBtn)
+        // asideSectionTogglerBtn();
+
+    function asideSectionTogglerBtn(){
+        aside-menu.classList.toggle("open");
+        navTogglerBtn.classList.toggle("open");
+        for(let i=0; i<totalSection; i++){
+            allSection[i].classList.toggle("open");
+        }
+    }
