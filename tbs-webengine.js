@@ -1,8 +1,8 @@
 // Aside Navbar
-    const nav=document.querySelector(".nav"),
+    const nav=document.querySelector(".nav-tbs"),
           navList=nav.querySelectorAll("li"),
           totalNavList=navList.length,
-          allSection=document.querySelectorAll(".section"),
+          allSection=document.querySelectorAll(".sections"),
           totalSection=allSection.length;
 
     for(let i=0; i<totalNavList; i++){
